@@ -58,6 +58,12 @@
     <Compile Include="Component1.Designer.cs">
       <DependentUpon>Component1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestio_usuaris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestio_usuaris.Designer.cs">
+      <DependentUpon>Gestio_usuaris.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestio_usuaris.resx">
+      <DependentUpon>Gestio_usuaris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_admin.resx">
       <DependentUpon>Menu_admin.cs</DependentUpon>

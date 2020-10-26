@@ -21,5 +21,11 @@ namespace Messi_app
             Menu_MAC obj = new Menu_MAC();
             obj.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Gestio_usuaris obj = new Gestio_usuaris();
+            obj.Show();
+        }
     }
 }
