@@ -83,6 +83,16 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _150px_HAL9000_svg {
+            get {
+                object obj = ResourceManager.GetObject("150px-HAL9000.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _180_1804550_grievous_comments_icon {
             get {
                 object obj = ResourceManager.GetObject("180-1804550_grievous-comments-icon", resourceCulture);
@@ -186,6 +196,16 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap _878fb2ec295102ec81c38c44e4808827 {
             get {
                 object obj = ResourceManager.GetObject("878fb2ec295102ec81c38c44e4808827", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _987_1540913843_2062609336 {
+            get {
+                object obj = ResourceManager.GetObject("987-1540913843-2062609336", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

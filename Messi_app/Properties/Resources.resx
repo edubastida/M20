@@ -190,6 +190,9 @@
   <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="VTVFXWSMARCMLGSALFS36KPZP4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VTVFXWSMARCMLGSALFS36KPZP4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,8 +211,8 @@
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="030e545dd05a64fb529decf1841295b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\030e545dd05a64fb529decf1841295b6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,6 +238,9 @@
   <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="150px-HAL9000.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\150px-HAL9000.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SWL44_A3_Grievous-art_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SWL44_A3_Grievous-art_ES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -247,7 +253,7 @@
   <data name="death-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\death-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="030e545dd05a64fb529decf1841295b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\030e545dd05a64fb529decf1841295b6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="987-1540913843-2062609336" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\987-1540913843-2062609336.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

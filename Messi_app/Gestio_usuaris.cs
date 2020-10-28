@@ -24,5 +24,10 @@ namespace Messi_app
             txtHostName.Text = cls.GetHostname();
             txtMAC.Text = cls.GetMac();
         }
+
+        private void txtHostName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -52,12 +52,6 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Component1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Component1.Designer.cs">
-      <DependentUpon>Component1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Gestio_usuaris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +271,12 @@
       <Project>{df370b76-d4b9-4ad6-8331-6f8dd04729f5}</Project>
       <Name>Classes_Messi</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\150px-HAL9000.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\987-1540913843-2062609336.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
