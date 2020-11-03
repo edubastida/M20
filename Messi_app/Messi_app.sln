@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messi_app", "Messi_app.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Messi", "..\Classes_Messi\Classes_Messi.csproj", "{DF370B76-D4B9-4AD6-8331-6F8DD04729F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messi_Control", "..\Messi_Control\Messi_Control.csproj", "{2C15FE20-7853-4590-B37D-E7C97023E4B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DF370B76-D4B9-4AD6-8331-6F8DD04729F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF370B76-D4B9-4AD6-8331-6F8DD04729F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF370B76-D4B9-4AD6-8331-6F8DD04729F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C15FE20-7853-4590-B37D-E7C97023E4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C15FE20-7853-4590-B37D-E7C97023E4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C15FE20-7853-4590-B37D-E7C97023E4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C15FE20-7853-4590-B37D-E7C97023E4B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

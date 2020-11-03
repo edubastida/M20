@@ -51,3 +51,5 @@ C:\Users\rprod\Documents\GitHub\M20\Messi_app\bin\Debug\Classes_Messi.pdb
 C:\Users\rprod\Documents\GitHub\M20\Messi_app\obj\Debug\Messi_app.Properties.Resources.resources
 C:\Users\rprod\Documents\GitHub\M20\Messi_app\obj\Debug\Messi_app.csproj.CoreCompileInputs.cache
 C:\Users\rprod\Documents\GitHub\M20\Messi_app\obj\Debug\Messi_app.csproj.CopyComplete
+C:\Users\rprod\Documents\GitHub\M20\Messi_app\bin\Debug\Messi_Control.dll
+C:\Users\rprod\Documents\GitHub\M20\Messi_app\bin\Debug\Messi_Control.pdb

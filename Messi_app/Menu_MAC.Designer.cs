@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_MAC));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.boto_return1 = new Messi_Control.Boto_return(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,12 +118,29 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // boto_return1
+            // 
+            this.boto_return1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.boto_return1.BackColor = System.Drawing.Color.Transparent;
+            this.boto_return1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_return1.BackgroundImage")));
+            this.boto_return1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boto_return1.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.boto_return1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.boto_return1.ForeColor = System.Drawing.Color.Transparent;
+            this.boto_return1.Location = new System.Drawing.Point(0, 1);
+            this.boto_return1.Name = "boto_return1";
+            this.boto_return1.Size = new System.Drawing.Size(57, 51);
+            this.boto_return1.TabIndex = 7;
+            this.boto_return1.TabStop = false;
+            this.boto_return1.UseVisualStyleBackColor = false;
+            // 
             // Menu_MAC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.boto_return1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -147,5 +167,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Messi_Control.Boto_return boto_return1;
     }
 }

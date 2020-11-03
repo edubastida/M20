@@ -193,6 +193,16 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8782f54d616de32ebeaca1d5909d7eb71 {
+            get {
+                object obj = ResourceManager.GetObject("8782f54d616de32ebeaca1d5909d7eb71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _878fb2ec295102ec81c38c44e4808827 {
             get {
                 object obj = ResourceManager.GetObject("878fb2ec295102ec81c38c44e4808827", resourceCulture);
@@ -256,6 +266,16 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_15_201925 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2020-10-15 201925", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2020_11_02_193744 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2020-11-02 193744", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -428,6 +448,16 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap Sith_Eternal_insignia {
             get {
                 object obj = ResourceManager.GetObject("Sith_Eternal_insignia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap space_1164579_1280 {
+            get {
+                object obj = ResourceManager.GetObject("space-1164579_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

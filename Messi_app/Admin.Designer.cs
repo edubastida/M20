@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.boto_exit1 = new Messi_Control.Boto_exit(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +48,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("ROG Fonts", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(572, 313);
+            this.button1.Location = new System.Drawing.Point(632, 313);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 23);
             this.button1.TabIndex = 0;
@@ -58,7 +61,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(610, 292);
+            this.label1.Location = new System.Drawing.Point(670, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 2;
@@ -72,7 +75,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 57F));
             this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(533, 342);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(593, 342);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.25373F));
@@ -88,7 +91,7 @@
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(572, 523);
+            this.textBox1.Location = new System.Drawing.Point(632, 523);
             this.textBox1.MaxLength = 0;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -121,6 +124,21 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // boto_exit1
+            // 
+            this.boto_exit1.BackColor = System.Drawing.Color.Transparent;
+            this.boto_exit1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_exit1.BackgroundImage")));
+            this.boto_exit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boto_exit1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boto_exit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boto_exit1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.boto_exit1.Location = new System.Drawing.Point(1307, 4);
+            this.boto_exit1.Name = "boto_exit1";
+            this.boto_exit1.Size = new System.Drawing.Size(57, 51);
+            this.boto_exit1.TabIndex = 7;
+            this.boto_exit1.UseVisualStyleBackColor = false;
+            this.boto_exit1.Click += new System.EventHandler(this.boto_exit1_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -129,7 +147,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1266, 788);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.Controls.Add(this.boto_exit1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
@@ -158,5 +177,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private Messi_Control.Boto_exit boto_exit1;
     }
 }

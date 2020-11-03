@@ -27,5 +27,10 @@ namespace Messi_app
             Gestio_usuaris obj = new Gestio_usuaris();
             obj.Show();
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

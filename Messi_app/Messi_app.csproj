@@ -271,12 +271,25 @@
       <Project>{df370b76-d4b9-4ad6-8331-6f8dd04729f5}</Project>
       <Name>Classes_Messi</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Messi_Control\Messi_Control.csproj">
+      <Project>{2C15FE20-7853-4590-B37D-E7C97023E4B0}</Project>
+      <Name>Messi_Control</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\150px-HAL9000.svg.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\987-1540913843-2062609336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8782f54d616de32ebeaca1d5909d7eb71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\space-1164579_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2020-11-02 193744.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

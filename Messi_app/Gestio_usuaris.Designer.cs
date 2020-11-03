@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gestio_usuaris));
             this.txtMAC = new System.Windows.Forms.TextBox();
             this.txtHostName = new System.Windows.Forms.TextBox();
             this.combUser = new System.Windows.Forms.ComboBox();
@@ -39,6 +41,7 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.boto_return1 = new Messi_Control.Boto_return(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +50,7 @@
             // 
             this.txtMAC.Enabled = false;
             this.txtMAC.Location = new System.Drawing.Point(124, 23);
-            this.txtMAC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMAC.Margin = new System.Windows.Forms.Padding(2);
             this.txtMAC.Multiline = true;
             this.txtMAC.Name = "txtMAC";
             this.txtMAC.Size = new System.Drawing.Size(136, 21);
@@ -57,7 +60,7 @@
             // 
             this.txtHostName.Enabled = false;
             this.txtHostName.Location = new System.Drawing.Point(144, 66);
-            this.txtHostName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtHostName.Margin = new System.Windows.Forms.Padding(2);
             this.txtHostName.Multiline = true;
             this.txtHostName.Name = "txtHostName";
             this.txtHostName.Size = new System.Drawing.Size(197, 21);
@@ -74,7 +77,7 @@
             "EduTheBest",
             "RubenTheWorst"});
             this.combUser.Location = new System.Drawing.Point(510, 26);
-            this.combUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.combUser.Margin = new System.Windows.Forms.Padding(2);
             this.combUser.Name = "combUser";
             this.combUser.Size = new System.Drawing.Size(132, 25);
             this.combUser.TabIndex = 2;
@@ -111,8 +114,8 @@
             this.panel1.Controls.Add(this.txtHostName);
             this.panel1.Controls.Add(this.lblMAC);
             this.panel1.Controls.Add(this.combUser);
-            this.panel1.Location = new System.Drawing.Point(34, 41);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(74, 44);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(664, 109);
             this.panel1.TabIndex = 5;
@@ -133,7 +136,7 @@
             this.btnCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnCheck.Font = new System.Drawing.Font("ROG Fonts", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheck.Location = new System.Drawing.Point(74, 180);
-            this.btnCheck.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCheck.Margin = new System.Windows.Forms.Padding(2);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(86, 32);
             this.btnCheck.TabIndex = 6;
@@ -145,7 +148,7 @@
             this.btnRegister.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnRegister.Font = new System.Drawing.Font("ROG Fonts", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.Location = new System.Drawing.Point(179, 180);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(116, 32);
             this.btnRegister.TabIndex = 7;
@@ -157,7 +160,7 @@
             this.btnDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnDelete.Font = new System.Drawing.Font("ROG Fonts", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(315, 180);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(99, 32);
             this.btnDelete.TabIndex = 8;
@@ -174,19 +177,36 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // boto_return1
+            // 
+            this.boto_return1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.boto_return1.BackColor = System.Drawing.Color.Transparent;
+            this.boto_return1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_return1.BackgroundImage")));
+            this.boto_return1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boto_return1.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.boto_return1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.boto_return1.ForeColor = System.Drawing.Color.Transparent;
+            this.boto_return1.Location = new System.Drawing.Point(3, 3);
+            this.boto_return1.Name = "boto_return1";
+            this.boto_return1.Size = new System.Drawing.Size(57, 51);
+            this.boto_return1.TabIndex = 10;
+            this.boto_return1.TabStop = false;
+            this.boto_return1.UseVisualStyleBackColor = false;
+            // 
             // Gestio_usuaris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.boto_return1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Gestio_usuaris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -211,5 +231,6 @@
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Messi_Control.Boto_return boto_return1;
     }
 }
