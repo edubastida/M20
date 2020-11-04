@@ -223,6 +223,16 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a566f807e7df7cc160d0396114f92487 {
+            get {
+                object obj = ResourceManager.GetObject("a566f807e7df7cc160d0396114f92487", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap B1 {
             get {
                 object obj = ResourceManager.GetObject("B1", resourceCulture);
@@ -363,6 +373,16 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__2_ {
+            get {
+                object obj = ResourceManager.GetObject("images (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images1 {
             get {
                 object obj = ResourceManager.GetObject("images1", resourceCulture);
@@ -418,6 +438,16 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap lightsaber {
             get {
                 object obj = ResourceManager.GetObject("lightsaber", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OG_9_homing_spider_droid_SWCT {
+            get {
+                object obj = ResourceManager.GetObject("OG-9-homing-spider-droid-SWCT", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

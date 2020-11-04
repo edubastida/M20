@@ -49,21 +49,21 @@
             // txtMAC
             // 
             this.txtMAC.Enabled = false;
-            this.txtMAC.Location = new System.Drawing.Point(165, 28);
-            this.txtMAC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtMAC.Location = new System.Drawing.Point(124, 23);
+            this.txtMAC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMAC.Multiline = true;
             this.txtMAC.Name = "txtMAC";
-            this.txtMAC.Size = new System.Drawing.Size(180, 25);
+            this.txtMAC.Size = new System.Drawing.Size(136, 21);
             this.txtMAC.TabIndex = 0;
             // 
             // txtHostName
             // 
             this.txtHostName.Enabled = false;
-            this.txtHostName.Location = new System.Drawing.Point(192, 81);
-            this.txtHostName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtHostName.Location = new System.Drawing.Point(144, 66);
+            this.txtHostName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtHostName.Multiline = true;
             this.txtHostName.Name = "txtHostName";
-            this.txtHostName.Size = new System.Drawing.Size(261, 25);
+            this.txtHostName.Size = new System.Drawing.Size(197, 21);
             this.txtHostName.TabIndex = 1;
             // 
             // combUser
@@ -75,29 +75,31 @@
             "GutiTheBest",
             "EduTheBest",
             "RubenTheWorst"});
-            this.combUser.Location = new System.Drawing.Point(680, 32);
-            this.combUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.combUser.Location = new System.Drawing.Point(510, 26);
+            this.combUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.combUser.Name = "combUser";
-            this.combUser.Size = new System.Drawing.Size(175, 30);
+            this.combUser.Size = new System.Drawing.Size(132, 25);
             this.combUser.TabIndex = 2;
             // 
             // lblMAC
             // 
             this.lblMAC.AutoSize = true;
-            this.lblMAC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMAC.Location = new System.Drawing.Point(27, 28);
+            this.lblMAC.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMAC.Location = new System.Drawing.Point(20, 23);
+            this.lblMAC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMAC.Name = "lblMAC";
-            this.lblMAC.Size = new System.Drawing.Size(73, 25);
+            this.lblMAC.Size = new System.Drawing.Size(67, 19);
             this.lblMAC.TabIndex = 3;
             this.lblMAC.Text = "M.A.C.";
             // 
             // lblHostName
             // 
             this.lblHostName.AutoSize = true;
-            this.lblHostName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHostName.Location = new System.Drawing.Point(27, 81);
+            this.lblHostName.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHostName.Location = new System.Drawing.Point(20, 66);
+            this.lblHostName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHostName.Name = "lblHostName";
-            this.lblHostName.Size = new System.Drawing.Size(104, 25);
+            this.lblHostName.Size = new System.Drawing.Size(123, 19);
             this.lblHostName.TabIndex = 4;
             this.lblHostName.Text = "HostName";
             // 
@@ -111,30 +113,32 @@
             this.panel1.Controls.Add(this.txtHostName);
             this.panel1.Controls.Add(this.lblMAC);
             this.panel1.Controls.Add(this.combUser);
-            this.panel1.Location = new System.Drawing.Point(99, 54);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(74, 44);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(885, 134);
+            this.panel1.Size = new System.Drawing.Size(664, 109);
             this.panel1.TabIndex = 5;
             // 
             // txtUsers
             // 
             this.txtUsers.AutoSize = true;
-            this.txtUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsers.Location = new System.Drawing.Point(580, 36);
+            this.txtUsers.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsers.Location = new System.Drawing.Point(435, 29);
+            this.txtUsers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtUsers.Name = "txtUsers";
-            this.txtUsers.Size = new System.Drawing.Size(59, 25);
+            this.txtUsers.Size = new System.Drawing.Size(66, 19);
             this.txtUsers.TabIndex = 5;
-            this.txtUsers.Text = "User:";
+            this.txtUsers.Text = "User";
             // 
             // btnCheck
             // 
             this.btnCheck.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheck.Location = new System.Drawing.Point(99, 222);
-            this.btnCheck.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCheck.Font = new System.Drawing.Font("ROG Fonts", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheck.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCheck.Location = new System.Drawing.Point(74, 180);
+            this.btnCheck.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(115, 39);
+            this.btnCheck.Size = new System.Drawing.Size(86, 32);
             this.btnCheck.TabIndex = 6;
             this.btnCheck.Text = "Check";
             this.btnCheck.UseVisualStyleBackColor = false;
@@ -142,11 +146,12 @@
             // btnRegister
             // 
             this.btnRegister.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(239, 222);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegister.Font = new System.Drawing.Font("ROG Fonts", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnRegister.Location = new System.Drawing.Point(179, 180);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(155, 39);
+            this.btnRegister.Size = new System.Drawing.Size(116, 32);
             this.btnRegister.TabIndex = 7;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -155,11 +160,12 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(420, 222);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDelete.Font = new System.Drawing.Font("ROG Fonts", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDelete.Location = new System.Drawing.Point(315, 180);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(132, 39);
+            this.btnDelete.Size = new System.Drawing.Size(99, 32);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -168,10 +174,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Messi_app.Properties.Resources._987_1540913843_2062609336;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(651, 222);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(488, 180);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(415, 334);
+            this.pictureBox1.Size = new System.Drawing.Size(311, 271);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
@@ -184,20 +189,19 @@
             this.boto_return1.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.boto_return1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.boto_return1.ForeColor = System.Drawing.Color.Transparent;
-            this.boto_return1.Location = new System.Drawing.Point(4, 4);
-            this.boto_return1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.boto_return1.Location = new System.Drawing.Point(3, 3);
             this.boto_return1.Name = "boto_return1";
-            this.boto_return1.Size = new System.Drawing.Size(67, 53);
+            this.boto_return1.Size = new System.Drawing.Size(47, 40);
             this.boto_return1.TabIndex = 10;
             this.boto_return1.TabStop = false;
             this.boto_return1.UseVisualStyleBackColor = false;
             // 
             // Gestio_usuaris
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.boto_return1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnDelete);
@@ -205,7 +209,7 @@
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Gestio_usuaris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

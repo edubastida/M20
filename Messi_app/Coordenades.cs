@@ -71,6 +71,11 @@ namespace Messi_app
             btnGenerate.Hide();
 
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+
+        }
     }
         }
     

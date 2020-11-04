@@ -292,5 +292,14 @@
   <ItemGroup>
     <None Include="Resources\987-1540913843-2062609336.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OG-9-homing-spider-droid-SWCT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a566f807e7df7cc160d0396114f92487.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
