@@ -1,0 +1,7 @@
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\bin\Debug\Biblioteca_Dades.dll.config
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\obj\Debug\Messi_Dades.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\obj\Debug\Messi_Dades.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\obj\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Dades\obj\Debug\Biblioteca_Dades.pdb

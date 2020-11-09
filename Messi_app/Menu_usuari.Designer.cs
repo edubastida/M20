@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_usuari));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -52,6 +54,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.boto_exit1 = new Messi_Control.Boto_exit(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -74,9 +77,10 @@
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(18, 163);
+            this.button1.Location = new System.Drawing.Point(24, 201);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 106);
+            this.button1.Size = new System.Drawing.Size(239, 130);
             this.button1.TabIndex = 0;
             this.button1.TabStop = false;
             this.button1.Text = "button1";
@@ -88,9 +92,10 @@
             this.button2.BackColor = System.Drawing.Color.RoyalBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(18, 273);
+            this.button2.Location = new System.Drawing.Point(24, 336);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 106);
+            this.button2.Size = new System.Drawing.Size(239, 130);
             this.button2.TabIndex = 1;
             this.button2.TabStop = false;
             this.button2.Text = "button2";
@@ -102,9 +107,10 @@
             this.button3.BackColor = System.Drawing.Color.DarkOrange;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(250, 163);
+            this.button3.Location = new System.Drawing.Point(333, 201);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 106);
+            this.button3.Size = new System.Drawing.Size(239, 130);
             this.button3.TabIndex = 2;
             this.button3.TabStop = false;
             this.button3.Text = "button3";
@@ -116,9 +122,10 @@
             this.button4.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(250, 273);
+            this.button4.Location = new System.Drawing.Point(333, 336);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 106);
+            this.button4.Size = new System.Drawing.Size(239, 130);
             this.button4.TabIndex = 3;
             this.button4.TabStop = false;
             this.button4.Text = "button4";
@@ -130,10 +137,11 @@
             this.button5.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("ROG Fonts", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(17, 163);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(23, 201);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(179, 106);
+            this.button5.Size = new System.Drawing.Size(239, 130);
             this.button5.TabIndex = 4;
             this.button5.TabStop = false;
             this.button5.Text = "Opcio5";
@@ -146,11 +154,12 @@
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("ROG Fonts", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.Location = new System.Drawing.Point(248, 163);
+            this.button6.Location = new System.Drawing.Point(331, 201);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(179, 106);
+            this.button6.Size = new System.Drawing.Size(239, 130);
             this.button6.TabIndex = 5;
             this.button6.TabStop = false;
             this.button6.Text = "button6";
@@ -163,9 +172,10 @@
             this.button7.BackColor = System.Drawing.Color.DarkOrchid;
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Location = new System.Drawing.Point(17, 272);
+            this.button7.Location = new System.Drawing.Point(23, 335);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(179, 106);
+            this.button7.Size = new System.Drawing.Size(239, 130);
             this.button7.TabIndex = 6;
             this.button7.TabStop = false;
             this.button7.Text = "button7";
@@ -176,29 +186,32 @@
             // 
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.CATEGORY1);
-            this.panel1.Location = new System.Drawing.Point(18, 31);
+            this.panel1.Location = new System.Drawing.Point(24, 38);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(410, 98);
+            this.panel1.Size = new System.Drawing.Size(547, 121);
             this.panel1.TabIndex = 7;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(333, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(444, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(74, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(99, 90);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // CATEGORY1
             // 
             this.CATEGORY1.AutoSize = true;
-            this.CATEGORY1.Font = new System.Drawing.Font("ROG Fonts", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CATEGORY1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CATEGORY1.ForeColor = System.Drawing.Color.Black;
-            this.CATEGORY1.Location = new System.Drawing.Point(3, 40);
+            this.CATEGORY1.Location = new System.Drawing.Point(4, 49);
+            this.CATEGORY1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CATEGORY1.Name = "CATEGORY1";
-            this.CATEGORY1.Size = new System.Drawing.Size(157, 23);
+            this.CATEGORY1.Size = new System.Drawing.Size(169, 29);
             this.CATEGORY1.TabIndex = 0;
             this.CATEGORY1.Text = "CATEGORY1";
             // 
@@ -206,9 +219,10 @@
             // 
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(17, 31);
+            this.panel2.Location = new System.Drawing.Point(23, 38);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(410, 98);
+            this.panel2.Size = new System.Drawing.Size(547, 121);
             this.panel2.TabIndex = 8;
             // 
             // pictureBox2
@@ -216,20 +230,22 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Messi_app.Properties.Resources.unknown;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(349, 20);
+            this.pictureBox2.Location = new System.Drawing.Point(465, 25);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(58, 60);
+            this.pictureBox2.Size = new System.Drawing.Size(77, 74);
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("ROG Fonts", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(3, 40);
+            this.label2.Location = new System.Drawing.Point(4, 49);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 23);
+            this.label2.Size = new System.Drawing.Size(169, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "CATEGORY2";
             // 
@@ -243,9 +259,10 @@
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.button5);
-            this.panel3.Location = new System.Drawing.Point(770, 246);
+            this.panel3.Location = new System.Drawing.Point(1027, 303);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(448, 402);
+            this.panel3.Size = new System.Drawing.Size(597, 495);
             this.panel3.TabIndex = 16;
             // 
             // pictureBox9
@@ -253,9 +270,10 @@
             this.pictureBox9.BackColor = System.Drawing.Color.OliveDrab;
             this.pictureBox9.BackgroundImage = global::Messi_app.Properties.Resources.stormtrooper;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(315, 190);
+            this.pictureBox9.Location = new System.Drawing.Point(420, 234);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox9.Size = new System.Drawing.Size(59, 50);
             this.pictureBox9.TabIndex = 15;
             this.pictureBox9.TabStop = false;
             // 
@@ -264,9 +282,10 @@
             this.pictureBox8.BackColor = System.Drawing.Color.DarkSlateGray;
             this.pictureBox8.BackgroundImage = global::Messi_app.Properties.Resources.vinilo_at_at_star_wars;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(85, 190);
+            this.pictureBox8.Location = new System.Drawing.Point(113, 234);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox8.Size = new System.Drawing.Size(59, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 14;
             this.pictureBox8.TabStop = false;
@@ -276,9 +295,10 @@
             this.pictureBox7.BackColor = System.Drawing.Color.DarkOrchid;
             this.pictureBox7.BackgroundImage = global::Messi_app.Properties.Resources.lightsaber;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(85, 290);
+            this.pictureBox7.Location = new System.Drawing.Point(113, 357);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox7.Size = new System.Drawing.Size(59, 50);
             this.pictureBox7.TabIndex = 13;
             this.pictureBox7.TabStop = false;
             // 
@@ -294,9 +314,10 @@
             this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.button2);
             this.panel4.Controls.Add(this.button1);
-            this.panel4.Location = new System.Drawing.Point(216, 246);
+            this.panel4.Location = new System.Drawing.Point(288, 303);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(448, 402);
+            this.panel4.Size = new System.Drawing.Size(597, 495);
             this.panel4.TabIndex = 17;
             // 
             // pictureBox6
@@ -304,9 +325,10 @@
             this.pictureBox6.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.pictureBox6.BackgroundImage = global::Messi_app.Properties.Resources.starwars_clipart_sith_5;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(321, 290);
+            this.pictureBox6.Location = new System.Drawing.Point(428, 357);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox6.Size = new System.Drawing.Size(59, 50);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
             // 
@@ -315,9 +337,10 @@
             this.pictureBox5.BackColor = System.Drawing.Color.DarkOrange;
             this.pictureBox5.BackgroundImage = global::Messi_app.Properties.Resources._41962;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(321, 190);
+            this.pictureBox5.Location = new System.Drawing.Point(428, 234);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox5.Size = new System.Drawing.Size(59, 50);
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
             // 
@@ -326,9 +349,10 @@
             this.pictureBox4.BackColor = System.Drawing.Color.RoyalBlue;
             this.pictureBox4.BackgroundImage = global::Messi_app.Properties.Resources.d4b3bb99ccb243de463ab00d5f985ca7;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(83, 290);
+            this.pictureBox4.Location = new System.Drawing.Point(111, 357);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox4.Size = new System.Drawing.Size(59, 50);
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             // 
@@ -338,9 +362,10 @@
             this.pictureBox3.BackgroundImage = global::Messi_app.Properties.Resources.vader_darth_vader_lord_sith_lord_sith_sith_star_wars_strar_wars_1320190551463123211;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = global::Messi_app.Properties.Resources._4e60fa416a33f12786f83f4a29c095e5_icono_de_llave_y_engranaje;
-            this.pictureBox3.Location = new System.Drawing.Point(83, 190);
+            this.pictureBox3.Location = new System.Drawing.Point(111, 234);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox3.Size = new System.Drawing.Size(59, 50);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
@@ -348,35 +373,53 @@
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel5.Controls.Add(this.pictureBox10);
-            this.panel5.Location = new System.Drawing.Point(619, 23);
+            this.panel5.Location = new System.Drawing.Point(825, 28);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(217, 133);
+            this.panel5.Size = new System.Drawing.Size(289, 164);
             this.panel5.TabIndex = 19;
             // 
             // pictureBox10
             // 
             this.pictureBox10.BackgroundImage = global::Messi_app.Properties.Resources.images__1_1;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(18, 12);
+            this.pictureBox10.Location = new System.Drawing.Point(24, 15);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(181, 109);
+            this.pictureBox10.Size = new System.Drawing.Size(241, 134);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 18;
             this.pictureBox10.TabStop = false;
             // 
+            // boto_exit1
+            // 
+            this.boto_exit1.BackColor = System.Drawing.Color.Transparent;
+            this.boto_exit1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_exit1.BackgroundImage")));
+            this.boto_exit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boto_exit1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boto_exit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boto_exit1.ForeColor = System.Drawing.Color.Transparent;
+            this.boto_exit1.Location = new System.Drawing.Point(1779, 12);
+            this.boto_exit1.Name = "boto_exit1";
+            this.boto_exit1.Size = new System.Drawing.Size(57, 51);
+            this.boto_exit1.TabIndex = 20;
+            this.boto_exit1.UseVisualStyleBackColor = false;
+            // 
             // Menu_usuari
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Menu;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1848, 970);
+            this.Controls.Add(this.boto_exit1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Menu_usuari";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu_usuari";
@@ -429,5 +472,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Panel panel5;
+        private Messi_Control.Boto_exit boto_exit1;
     }
 }

@@ -71,6 +71,7 @@ namespace Messi_Dades
 
         public void Actualitzar(DataSet dts, string query)
         {
+            Connectar();
 
             conn.Open();
 
@@ -87,13 +88,17 @@ namespace Messi_Dades
             conn.Close();
         }
 
-        public void Executa(string consulta)
+        public int Executa(string consulta)
         {
+            Connectar();
+
             conn.Open();
             SqlCommand cmd;
             cmd = new SqlCommand(consulta, conn);
             int registresAfectats = cmd.ExecuteNonQuery();
             cmd.Dispose();
+
+            return registresAfectats;
         }
     }
 }

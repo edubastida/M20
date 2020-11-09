@@ -285,6 +285,10 @@
       <Project>{2C15FE20-7853-4590-B37D-E7C97023E4B0}</Project>
       <Name>Messi_Control</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Messi_Dades\Messi_Dades.csproj">
+      <Project>{dbae1ca3-1d0f-4209-ba72-fcacb76333bc}</Project>
+      <Name>Messi_Dades</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\150px-HAL9000.svg.png" />

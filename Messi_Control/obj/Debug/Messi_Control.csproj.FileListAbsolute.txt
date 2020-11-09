@@ -16,3 +16,12 @@ C:\Users\rprod\Desktop\MESSI_BK2\Messi_Control\obj\Debug\Messi_Control.csproj.Ge
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_Control\obj\Debug\Messi_Control.csproj.CoreCompileInputs.cache
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_Control\obj\Debug\Messi_Control.dll
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_Control\obj\Debug\Messi_Control.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\bin\Debug\Messi_Control.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\bin\Debug\Messi_Control.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.Boto_exit.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.Boto_return.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_Control\obj\Debug\Messi_Control.pdb

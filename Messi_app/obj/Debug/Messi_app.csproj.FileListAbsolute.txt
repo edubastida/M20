@@ -118,3 +118,28 @@ C:\Users\rprod\Desktop\MESSI_BK2\Messi_app\obj\Debug\Messi_app.csproj.CoreCompil
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_app\obj\Debug\Messi_app.csproj.CopyComplete
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_app\obj\Debug\Messi_app.exe
 C:\Users\rprod\Desktop\MESSI_BK2\Messi_app\obj\Debug\Messi_app.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Messi_app.exe.config
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Messi_app.exe
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Messi_app.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Classes_Messi.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Messi_Control.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Classes_Messi.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Messi_Control.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Admin.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Coordenades.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Gestio_usuaris.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Menu_admin.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Menu_MAC.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Log.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Menu_usuari.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Properties.Resources.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.Splash.resources
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.csproj.CopyComplete
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.exe
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\obj\Debug\Messi_app.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Edu\Desktop\Copias GitHub\M20\Messi_app\bin\Debug\Biblioteca_Dades.dll.config

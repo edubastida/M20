@@ -19,45 +19,50 @@ namespace Messi_app
         {
             InitializeComponent();
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void Menu_MAC_Load(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox2.Clear();
-            Application.Exit();
-        }
+            Classes_Messi.Xarxes cls = new Classes_Messi.Xarxes();
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string path = @"C:\Users\rprod\Desktop\Logs_guardados\MAC_HOST.log";
+            txtMAC.Text = cls.GetMac();
+            txtHostName.Text = cls.GetHostname();
 
-            FileInfo fi = new FileInfo(path);
+            Messi_Dades.Dades bbdd = new Messi_Dades.Dades(); 
+            string query = "Select * from TrustedDevices " +  
+                "where MAC = '" + txtMAC.Text + "' and HostName = '" + txtHostName.Text + "'" ;
+            DataSet Exist = bbdd.PortarPerConsulta(query);
 
-
-            if (!File.Exists(path))
+            if(Exist.Tables[0].Rows.Count == 1)
             {
-                //Open file for Read\Write
-                FileStream fs = fi.Open(FileMode.OpenOrCreate, FileAccess.Write);
-                //Create StreamWriter object to write string to FileSream
-                StreamWriter sw = new StreamWriter(fs);
-                sw.WriteLine(textBox1.Text + ":" + textBox2.Text);
-                sw.Close();
+                btnSave.Enabled = false;
             }
             else
             {
-                //Open file for Read\Write
-                FileStream fs = fi.Open(FileMode.Append, FileAccess.Write);
-                StreamWriter sw = new StreamWriter(fs);
-                sw.WriteLine(textBox1.Text + ":" + textBox2.Text);
-                sw.Close();
+                btnDelete.Enabled = false;
             }
-            Application.Exit();
         }
-        private void Menu_MAC_Load(object sender, EventArgs e)
+
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Classes_Messi.Xarxes cls = new Classes_Messi.Xarxes();         
-            
-            textBox1.Text = cls.GetHostname();
-            textBox2.Text = cls.GetMac();
+            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+
+            string query = "insert into TrustedDevices " +
+                "values ('" + txtMAC.Text + "' , '" + txtHostName.Text + "')";
+            int TrustedDevices = bbdd.Executa(query);
+
+            btnSave.Enabled = false;
+            btnDelete.Enabled = true;
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+
+            string query = "delete from TrustedDevices " +
+                "where MAC = '" + txtMAC.Text + "' and HostName = '" + txtHostName.Text + "'";
+            int TrustedDevices = bbdd.Executa(query);
+
+            btnSave.Enabled = true;
+            btnDelete.Enabled = false;
         }
     }
 }
