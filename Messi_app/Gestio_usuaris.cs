@@ -23,19 +23,38 @@ namespace Messi_app
 
         private void Gestio_usuaris_Load(object sender, EventArgs e)
         {
+            //Agafa el HostName i la Mac del PC i els mostra
             Classes_Messi.Xarxes cls = new Classes_Messi.Xarxes();
 
-             HostName = cls.GetHostname();
-             Mac = cls.GetMac();
-
+            HostName = cls.GetHostname();
+            Mac = cls.GetMac();
             txtHostName.Text = HostName;
             txtMAC.Text = Mac;
+
+            //Omple el combobox amb els usuaris de la BBDD
+            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+            DataSet dts = bbdd.PortarTaula("Users");
+            
+            combUser.DataSource = dts.Tables[0];
+            combUser.ValueMember = "idUser";
+            combUser.DisplayMember = "codeUser";
+
+            //Comprova que el HostName i la Mac s'han guardat a TrustedUsers, 
+            //si no es aixi mostra un missatge i tanca la pesntanya 
+            string query = "select * from TrustedDevices" +
+                " where HostName = '" + HostName + "' and MAC = '" + Mac + "'";
+            DataSet exist = bbdd.PortarPerConsulta(query);
+
+            if (exist.Tables[0].Rows.Count <= 0)
+            {
+                this.Close();
+                MessageBox.Show("Dispositiu no donat d'alta");
+            }
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
             
-
             string user = combUser.Text;
             string user_valid = "TustedUser";
             var configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
@@ -55,27 +74,12 @@ namespace Messi_app
         private void btnCheck_Click(object sender, EventArgs e)
         {
             Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
-            DataSet dts = bbdd.PortarTaula("Users");
 
-            string query = "select * from TrustedDevices" +
-                " where HostName = '" + HostName + "' and MAC = '" + Mac + "'";
-            DataSet esta = bbdd.PortarPerConsulta(query);
-
-            if (esta.Tables[0].Rows.Count == 0)
-            {
-                this.Hide();
-            }
-
-
-
-
-
+            
             string user = combUser.Text;
             string user_valid = "TustedUser";
             var configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             var settings = configFile.AppSettings.Settings;
-
-
         }
     }
 }

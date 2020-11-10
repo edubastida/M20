@@ -71,10 +71,6 @@
             this.combUser.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combUser.FormattingEnabled = true;
-            this.combUser.Items.AddRange(new object[] {
-            "GutiTheBest",
-            "EduTheBest",
-            "RubenTheWorst"});
             this.combUser.Location = new System.Drawing.Point(680, 32);
             this.combUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combUser.Name = "combUser";
