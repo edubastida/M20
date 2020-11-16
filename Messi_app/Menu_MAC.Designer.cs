@@ -45,21 +45,21 @@
             // 
             this.txtMAC.Enabled = false;
             this.txtMAC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMAC.Location = new System.Drawing.Point(709, 194);
-            this.txtMAC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMAC.Location = new System.Drawing.Point(617, 196);
+            this.txtMAC.Margin = new System.Windows.Forms.Padding(4);
             this.txtMAC.Multiline = true;
             this.txtMAC.Name = "txtMAC";
-            this.txtMAC.Size = new System.Drawing.Size(244, 35);
+            this.txtMAC.Size = new System.Drawing.Size(240, 30);
             this.txtMAC.TabIndex = 0;
             // 
             // txtHostName
             // 
             this.txtHostName.Enabled = false;
             this.txtHostName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHostName.Location = new System.Drawing.Point(709, 238);
-            this.txtHostName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHostName.Location = new System.Drawing.Point(617, 239);
+            this.txtHostName.Margin = new System.Windows.Forms.Padding(4);
             this.txtHostName.Name = "txtHostName";
-            this.txtHostName.Size = new System.Drawing.Size(264, 30);
+            this.txtHostName.Size = new System.Drawing.Size(275, 30);
             this.txtHostName.TabIndex = 1;
             // 
             // label1
@@ -90,8 +90,8 @@
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(512, 343);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Location = new System.Drawing.Point(617, 302);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(105, 32);
             this.btnSave.TabIndex = 4;
@@ -105,8 +105,8 @@
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(739, 343);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Location = new System.Drawing.Point(617, 302);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(105, 32);
             this.btnDelete.TabIndex = 5;
@@ -120,11 +120,11 @@
             this.boto_return1.BackColor = System.Drawing.Color.Transparent;
             this.boto_return1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_return1.BackgroundImage")));
             this.boto_return1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.boto_return1.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.boto_return1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.boto_return1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.boto_return1.ForeColor = System.Drawing.Color.Transparent;
             this.boto_return1.Location = new System.Drawing.Point(0, 1);
-            this.boto_return1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.boto_return1.Margin = new System.Windows.Forms.Padding(4);
             this.boto_return1.Name = "boto_return1";
             this.boto_return1.Size = new System.Drawing.Size(63, 49);
             this.boto_return1.TabIndex = 7;
@@ -136,7 +136,7 @@
             this.pictureBox1.BackgroundImage = global::Messi_app.Properties.Resources.a566f807e7df7cc160d0396114f92487;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(36, 97);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(383, 375);
             this.pictureBox1.TabIndex = 8;
@@ -157,7 +157,7 @@
             this.Controls.Add(this.txtHostName);
             this.Controls.Add(this.txtMAC);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu_MAC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu_Admin";

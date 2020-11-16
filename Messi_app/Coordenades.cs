@@ -19,6 +19,10 @@ namespace Messi_app
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
+            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+            string delete = "Delete from Admincoordinates";
+            int a = bbdd.Executa(delete);
+
             Dictionary<string, string> dic_coord = new Dictionary<string, string>();
 
             for(char l = 'A'; l < 'E'; l++)
@@ -39,6 +43,7 @@ namespace Messi_app
             }
             Dictionary<string, string> dic_coord_final = new Dictionary<string, string>();
 
+            //Posar 0 a la esquerra si fa falta
             foreach (KeyValuePair<string, string> kvp in dic_coord)
             {
                 string num_rand_string = "";
@@ -60,6 +65,18 @@ namespace Messi_app
                     num_rand_string = kvp.Value;
                 }
                 dic_coord_final.Add(kvp.Key, num_rand_string);
+
+                ////
+                DataSet dts = bbdd.PortarTaula("AdminCoordinates");
+                DataRow dr = dts.Tables[0].NewRow();
+
+                dr["Coordinate"] = kvp.Key;
+                dr["Value"] = num_rand_string;
+
+                dts.Tables[0].Rows.Add(dr);
+                string query = "select * from AdminCoordinates";
+                bbdd.Actualitzar(dts, query);
+
             }
 
                 foreach (KeyValuePair<string, string> kvp in dic_coord_final)
@@ -68,13 +85,11 @@ namespace Messi_app
                 tableLayoutPanel1.Controls.Add(lblNums);
                 lblNums.Text = kvp.Value;
             }
-            btnGenerate.Hide();
-
         }
 
         private void btnShow_Click(object sender, EventArgs e)
         {
-
+            tableLayoutPanel1.Visible = true;
         }
     }
         }

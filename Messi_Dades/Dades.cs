@@ -72,7 +72,6 @@ namespace Messi_Dades
         public void Actualitzar(DataSet dts, string query)
         {
             Connectar();
-
             conn.Open();
 
             SqlDataAdapter adapter;
@@ -97,6 +96,8 @@ namespace Messi_Dades
             cmd = new SqlCommand(consulta, conn);
             int registresAfectats = cmd.ExecuteNonQuery();
             cmd.Dispose();
+
+            conn.Close();
 
             return registresAfectats;
         }

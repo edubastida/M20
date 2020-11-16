@@ -21,14 +21,26 @@ namespace Messi_app
             InitializeComponent();
         }
 
+        private static Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+
+        private string query;
+        private DataSet dts;
+        private DataRow dr;
+
         private void button1_Click(object sender, EventArgs e)
-        {
+        {         
             textBox1.Clear();
             tableLayoutPanel1.Controls.Clear();
-            Random rdn = new Random();
-            int number = rdn.Next(0, 9);
-            char letter = (char)rdn.Next('A', 'D');
-            label1.Text = number.ToString() + letter.ToString();
+            //Random rdn = new Random();
+            //int number = rdn.Next(0, 9);
+            //char letter = (char)rdn.Next('A', 'D');
+            //label1.Text = number.ToString() + letter.ToString();
+
+            query = "select top 1 * from AdminCoordinates order by newid()";
+            dts = bbdd.PortarPerConsulta(query);
+            dr = dts.Tables[0].Rows[0];
+
+            label1.Text = dr["Coordinate"].ToString();
 
             Llamada_Array();
             
@@ -62,7 +74,8 @@ namespace Messi_app
         }
         private void Click_ast(object sender, EventArgs e)
         {
-            if (textBox1.Text == "1234")
+            string clau = dr["Value"].ToString();
+            if (textBox1.Text == clau)
             {
                 this.Hide();
                 Menu_admin obj = new Menu_admin();
@@ -82,6 +95,7 @@ namespace Messi_app
         }
 
         Queue<int> numrandoms = new Queue<int>();
+        
         private void Llamada_Array()
         {
             ArrayList arlistnumber = new ArrayList();
@@ -103,14 +117,10 @@ namespace Messi_app
             foreach (var id in numrandoms)
                 Console.WriteLine(id);
         }
+
         private void Admin_Load(object sender, EventArgs e)
         {
             Llamada_Array();
-        }
-
-        private void boto_exit1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

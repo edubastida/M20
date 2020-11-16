@@ -53,13 +53,13 @@
             this.txtMAC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMAC.Multiline = true;
             this.txtMAC.Name = "txtMAC";
-            this.txtMAC.Size = new System.Drawing.Size(180, 25);
+            this.txtMAC.Size = new System.Drawing.Size(204, 25);
             this.txtMAC.TabIndex = 0;
             // 
             // txtHostName
             // 
             this.txtHostName.Enabled = false;
-            this.txtHostName.Location = new System.Drawing.Point(192, 81);
+            this.txtHostName.Location = new System.Drawing.Point(165, 81);
             this.txtHostName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHostName.Multiline = true;
             this.txtHostName.Name = "txtHostName";
@@ -71,7 +71,7 @@
             this.combUser.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combUser.FormattingEnabled = true;
-            this.combUser.Location = new System.Drawing.Point(680, 32);
+            this.combUser.Location = new System.Drawing.Point(664, 35);
             this.combUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combUser.Name = "combUser";
             this.combUser.Size = new System.Drawing.Size(175, 30);
@@ -145,7 +145,7 @@
             this.btnRegister.Location = new System.Drawing.Point(239, 222);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(155, 39);
+            this.btnRegister.Size = new System.Drawing.Size(132, 39);
             this.btnRegister.TabIndex = 7;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -156,13 +156,14 @@
             this.btnDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDelete.Location = new System.Drawing.Point(420, 222);
+            this.btnDelete.Location = new System.Drawing.Point(239, 222);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(132, 39);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // pictureBox1
             // 
@@ -181,7 +182,7 @@
             this.boto_return1.BackColor = System.Drawing.Color.Transparent;
             this.boto_return1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boto_return1.BackgroundImage")));
             this.boto_return1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.boto_return1.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.boto_return1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.boto_return1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.boto_return1.ForeColor = System.Drawing.Color.Transparent;
             this.boto_return1.Location = new System.Drawing.Point(4, 4);

@@ -19,50 +19,69 @@ namespace Messi_app
         {
             InitializeComponent();
         }
+
+        private static Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+
+        //Creacio variables Xarxes
+        private string MAC;
+        private string HostName;
+
         private void Menu_MAC_Load(object sender, EventArgs e)
         {
-            Classes_Messi.Xarxes cls = new Classes_Messi.Xarxes();
+            //Obrim la classe xarxes
+            Classes_Messi.Xarxes xarxes = new Classes_Messi.Xarxes();
 
-            txtMAC.Text = cls.GetMac();
-            txtHostName.Text = cls.GetHostname();
+            //Donem valors a les variables de xarxes
+            MAC = xarxes.GetMac();
+            HostName = xarxes.GetHostname();
 
-            Messi_Dades.Dades bbdd = new Messi_Dades.Dades(); 
+            txtMAC.Text = MAC;
+            txtHostName.Text = HostName;
+
+            //Comprovem si esta emmagatzemat a la BBDD  
             string query = "Select * from TrustedDevices " +  
-                "where MAC = '" + txtMAC.Text + "' and HostName = '" + txtHostName.Text + "'" ;
+                "where MAC = '" + MAC + "' and HostName = '" + HostName + "'" ;
             DataSet Exist = bbdd.PortarPerConsulta(query);
 
             if(Exist.Tables[0].Rows.Count == 1)
             {
-                btnSave.Enabled = false;
+                btnSave.Hide();
             }
             else
             {
-                btnDelete.Enabled = false;
+                btnDelete.Hide();
             }
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
+            DataSet dts = bbdd.PortarTaula("TrustedDevices");
+            DataRow dr = dts.Tables[0].NewRow();
+           
+            dr["MAC"] = MAC;
+            dr["HostName"] = HostName;
+            
+            dts.Tables[0].Rows.Add(dr);
+            string query = "select * from TrustedDevices";
+            bbdd.Actualitzar(dts, query);
 
-            string query = "insert into TrustedDevices " +
-                "values ('" + txtMAC.Text + "' , '" + txtHostName.Text + "')";
-            int TrustedDevices = bbdd.Executa(query);
-
-            btnSave.Enabled = false;
-            btnDelete.Enabled = true;
+            btnSave.Hide();
+            btnDelete.Show();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            Messi_Dades.Dades bbdd = new Messi_Dades.Dades();
-
-            string query = "delete from TrustedDevices " +
-                "where MAC = '" + txtMAC.Text + "' and HostName = '" + txtHostName.Text + "'";
-            int TrustedDevices = bbdd.Executa(query);
-
-            btnSave.Enabled = true;
-            btnDelete.Enabled = false;
+            string query = "select * from TrustedDevices " +
+                "where MAC = '" + MAC + "' and HostName = '" + HostName + "'";
+            DataSet dts = bbdd.PortarPerConsulta(query);
+            if (dts.Tables[0].Rows.Count > 0)
+            {
+                dts.Tables[0].Rows[0].Delete();
+                bbdd.Actualitzar(dts, query);
+                btnSave.Show();
+                btnDelete.Hide();
+            }         
+            
         }
     }
 }

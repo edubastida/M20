@@ -16,7 +16,7 @@ namespace Messi_app
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu_admin());
+            Application.Run(new Splash());
         }
     }
 }
